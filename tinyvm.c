@@ -53,7 +53,8 @@ int main(int argc, char *argv[])
     while ((PC / 2) < IRC) {
 
         // FETCH
-        IR = IM[PC / 2];
+        IR.op = IM[PC / 2].op;
+        IR.addr = IM[PC / 2].addr;
         PC += 2;
 
         // DECODE / EXECUTE
