@@ -8,11 +8,12 @@ This will make a executable we can run named 'runme'
 
 Step 2: run with elfMarie.txt
 
-./runme elfMarie.txt
+./runme elfMarie.txt > output.txt
 
-this will run the 2 x 3 marie program
+this will run the A x B marie program
 
-make sure to input 2 and 3 in order.
+make sure to input A and B in order, than 1 to store the var to subtract.
+You will see results in the output.txt file
 
 
 

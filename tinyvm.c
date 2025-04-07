@@ -39,8 +39,8 @@ int main(int argc, char *argv[])
 
     fclose(fp);
 
-    // Now you have your instructions in IM[0..(IRC-1)].
-    // Next, run your “toy CPU” logic:
+    // We are now storing the instructions in IM[0..(IRC-1)]
+    // and run the logic for the tiny vm:
     int PC = 0;         // Program Counter
     int A  = 0;         // Accumulator
     int DM[10] = {0};   // Data Memory
